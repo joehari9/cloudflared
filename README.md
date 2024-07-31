@@ -1,6 +1,8 @@
 # cloudflared
-openwrt cloudflared installation
+Openwrt cloudflared installation
+1.login ssh using putty or another ssh client tools
 VERSION get the latest version in https://github.com/cloudflare/cloudflared
+
 ```
 VERSION="2024.6.1"
 
