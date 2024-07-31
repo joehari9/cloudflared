@@ -11,3 +11,12 @@ curl -O -L \
 && chmod +x cloudflared-linux-arm \
 && mv cloudflared-linux-arm /usr/bin/cloudflared
 ```
+2. get your token from cloudflare page in tunnel path and paste your token in TOKEN secsion in command bellow
+
+```
+TOKEN="your_actual_token"
+curl -o install.sh https://raw.githubusercontent.com/yourusername/yourrepository/branchname/install.sh
+sed -i "s/<yourtoken>/${TOKEN}/g" install.sh
+chmod +x install.sh
+./install.sh
+```
