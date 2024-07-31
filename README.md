@@ -11,6 +11,7 @@ curl -O -L \
 && chmod +x cloudflared-linux-arm \
 && mv cloudflared-linux-arm /usr/bin/cloudflared
 ```
+
 2. get your token from cloudflare page in tunnel path and paste your token in TOKEN secsion in command bellow
 
 ```
