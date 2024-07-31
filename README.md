@@ -16,7 +16,7 @@ curl -O -L \
 
 ```
 TOKEN="your_actual_token"
-curl -o install.sh https://raw.githubusercontent.com/yourusername/yourrepository/branchname/install.sh
+curl -o install.sh https://raw.githubusercontent.com/joehari9/cloudflared/main/install.sh
 sed -i "s/<yourtoken>/${TOKEN}/g" install.sh
 chmod +x install.sh
 ./install.sh
